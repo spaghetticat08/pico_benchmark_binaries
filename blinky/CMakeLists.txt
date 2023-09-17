@@ -1,0 +1,2 @@
+add_subdirectory(blink_onboard)
+add_subdirectory(blink_pin)

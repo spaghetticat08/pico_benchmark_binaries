@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "complex/weatherstation/bmp_library",
+		"source" : "complex/weatherstation/bmp_library"
+	}
+}

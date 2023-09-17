@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "GPIO/Onewire/onewire_library",
+		"source" : "GPIO/Onewire/onewire_library"
+	}
+}

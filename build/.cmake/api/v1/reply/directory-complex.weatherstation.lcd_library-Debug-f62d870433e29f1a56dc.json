@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "complex/weatherstation/lcd_library",
+		"source" : "complex/weatherstation/lcd_library"
+	}
+}

@@ -1,0 +1,3 @@
+add_subdirectory(weatherstation)
+add_subdirectory(trafficlight)
+add_subdirectory(smartdoor)
