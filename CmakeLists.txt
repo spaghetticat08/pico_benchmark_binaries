@@ -31,6 +31,9 @@ add_subdirectory(blinky)
 add_subdirectory(GPIO)
 add_subdirectory(complex)
 add_subdirectory(i2c)
+add_subdirectory(Serial)
+add_subdirectory(lib_collector)
+add_subdirectory(lib_collector_inlined)
 #add_subdirectory(spi)
 
 

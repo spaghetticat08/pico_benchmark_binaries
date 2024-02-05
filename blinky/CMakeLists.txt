@@ -1,2 +1,7 @@
+add_subdirectory(blink_conditional)
 add_subdirectory(blink_onboard)
 add_subdirectory(blink_pin)
+add_subdirectory(blink_low_level)
+add_subdirectory(blink_simple)
+add_subdirectory(blink_simple_d)
+add_subdirectory(blink_random)
