@@ -1,8 +1,7 @@
-
-
 add_executable(lib_collector_inlined lib_collector_inlined.c)
 
 target_compile_options(lib_collector_inlined PRIVATE
+        
         )
 
 target_link_libraries(lib_collector_inlined
@@ -20,4 +19,6 @@ target_link_libraries(lib_collector_inlined
         pico_multicore
         pico_time
         )
+
+pico_add_extra_outputs(lib_collector_inlined)
 

@@ -3,7 +3,8 @@ add_executable(blink_pin
         )
 
 # add pico stdlib libraries with commonly used functionality
-target_link_libraries(blink_pin pico_stdlib)
+target_link_libraries(blink_pin 
+                        pico_stdlib)
 
 # create map/bin/hex/uf2 file in addition to ELF
 pico_add_extra_outputs(blink_pin)

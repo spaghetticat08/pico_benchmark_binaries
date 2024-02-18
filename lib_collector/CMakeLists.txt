@@ -1,10 +1,8 @@
-
-
 add_executable(lib_collector lib_collector.c)
 
 target_compile_options(lib_collector PRIVATE
-        -O0
         -fno-inline
+        -O0
         )
 
 target_link_libraries(lib_collector
@@ -23,3 +21,4 @@ target_link_libraries(lib_collector
         pico_time
         )
 
+pico_add_extra_outputs(lib_collector)
