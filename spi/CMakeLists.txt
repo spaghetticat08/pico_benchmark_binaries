@@ -1,0 +1,1 @@
+add_subdirectory(max7219_32x8_spi)

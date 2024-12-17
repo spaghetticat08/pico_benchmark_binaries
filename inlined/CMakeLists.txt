@@ -1,0 +1,5 @@
+add_subdirectory(blink_noinl)
+add_subdirectory(blink_noinl_o0)
+add_subdirectory(blink_o0)
+add_subdirectory(blink_o1)
+add_subdirectory(blink_o2)

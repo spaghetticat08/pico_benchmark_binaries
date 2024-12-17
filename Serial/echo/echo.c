@@ -14,7 +14,7 @@ int main() {
     printf("Please enter your message:\n");
 
     if (scanf("%s", str) != 0){
-        printf("Echo: %s\n", str)
+        printf("Echo: %s\n", str);
     }
 
     return 0;

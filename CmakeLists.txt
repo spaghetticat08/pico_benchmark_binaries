@@ -27,14 +27,20 @@ pico_sdk_init()
 # add modules/libraries
 
 # add blinky example
+add_subdirectory(adc)
 add_subdirectory(blinky)
+add_subdirectory(dma)
 add_subdirectory(GPIO)
 add_subdirectory(complex)
 add_subdirectory(i2c)
+add_subdirectory(inlined)
+add_subdirectory(interrupt)
 add_subdirectory(Serial)
 add_subdirectory(lib_collector)
 add_subdirectory(lib_collector_inlined)
-#add_subdirectory(spi)
+add_subdirectory(pwm)
+add_subdirectory(spi)
+#add_subdirectory(wifi)
 
 
 # Optional: compiler options
@@ -42,5 +48,8 @@ add_subdirectory(lib_collector_inlined)
 #        -Wno-format # int != int32_t as far as the compiler is concerned because gcc has int32_t as long int
 #        -Wno-unused-function # we have some for the docs that aren't called
 #        )
+add_compile_options(
+        -fdump-tree-cfg-graph   
+)
 
 # the other commands are in each CMakeLists.txt per subdirectory

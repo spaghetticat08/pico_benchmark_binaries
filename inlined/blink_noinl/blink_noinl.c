@@ -1,12 +1,6 @@
-/**
- * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
+#include "pico/stdlib.h"
 
-#include "hardware/gpio.h"
-#include "pico/time.h"
-
+// Change the define here to the GPIO number that should be used for the led
 #define LED_PIN 15
 
 int main() {
